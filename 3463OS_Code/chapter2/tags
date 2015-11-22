@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_SIZE	2_1_forking_mixin_socket_server.py	/^BUF_SIZE = 1024$/;"	v
+BUF_SIZE	2_2_threading_mixin_socket_server.py	/^BUF_SIZE = 1024$/;"	v
+CHAT_SERVER_NAME	2_3_chat_server_with_select.py	/^CHAT_SERVER_NAME = 'server'$/;"	v
+ChatClient	2_3_chat_server_with_select.py	/^class ChatClient(object):$/;"	c
+ChatServer	2_3_chat_server_with_select.py	/^class ChatServer(object):$/;"	c
+ECHO_MSG	2_1_forking_mixin_socket_server.py	/^ECHO_MSG = 'Hello echo server!'$/;"	v
+EOL1	2_4_simple_web_server_with_epoll.py	/^EOL1 = b'\\n\\n'$/;"	v
+EOL2	2_4_simple_web_server_with_epoll.py	/^EOL2 = b'\\n\\r\\n'$/;"	v
+EchoServer	2_5_echo_server_with_diesel.py	/^class EchoServer(object):$/;"	c
+EpollServer	2_4_simple_web_server_with_epoll.py	/^class EpollServer(object):$/;"	c
+ForkedClient	2_1_forking_mixin_socket_server.py	/^class ForkedClient():$/;"	c
+ForkingServer	2_1_forking_mixin_socket_server.py	/^                    ):$/;"	c
+ForkingServerRequestHandler	2_1_forking_mixin_socket_server.py	/^class ForkingServerRequestHandler(SocketServer.BaseRequestHandler):$/;"	c
+SERVER_HOST	2_1_forking_mixin_socket_server.py	/^SERVER_HOST = 'localhost'$/;"	v
+SERVER_HOST	2_2_threading_mixin_socket_server.py	/^SERVER_HOST = 'localhost'$/;"	v
+SERVER_HOST	2_3_chat_server_with_select.py	/^SERVER_HOST = 'localhost'$/;"	v
+SERVER_HOST	2_4_simple_web_server_with_epoll.py	/^SERVER_HOST = 'localhost'$/;"	v
+SERVER_PORT	2_1_forking_mixin_socket_server.py	/^SERVER_PORT = 0 # tells the kernel to pickup a port dynamically$/;"	v
+SERVER_PORT	2_2_threading_mixin_socket_server.py	/^SERVER_PORT = 0 # tells the kernel to pickup a port dynamically$/;"	v
+ThreadedTCPRequestHandler	2_2_threading_mixin_socket_server.py	/^class ThreadedTCPRequestHandler(SocketServer.BaseRequestHandler):$/;"	c
+ThreadedTCPServer	2_2_threading_mixin_socket_server.py	/^class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):$/;"	c
+__init__	2_1_forking_mixin_socket_server.py	/^    def __init__(self, ip, port):$/;"	m	class:ForkedClient
+__init__	2_3_chat_server_with_select.py	/^    def __init__(self, name, port, host=SERVER_HOST):$/;"	m	class:ChatClient
+__init__	2_3_chat_server_with_select.py	/^    def __init__(self, port, backlog=5):$/;"	m	class:ChatServer
+__init__	2_4_simple_web_server_with_epoll.py	/^    def __init__(self, host=SERVER_HOST, port=0):$/;"	m	class:EpollServer
+client	2_2_threading_mixin_socket_server.py	/^def client(ip, port, message):$/;"	f
+get_client_name	2_3_chat_server_with_select.py	/^    def get_client_name(self, client):$/;"	m	class:ChatServer
+given_args	2_3_chat_server_with_select.py	/^    given_args = parser.parse_args() $/;"	v	class:ChatClient
+given_args	2_4_simple_web_server_with_epoll.py	/^    given_args = parser.parse_args() $/;"	v	class:EpollServer
+given_args	2_5_echo_server_with_diesel.py	/^    given_args = parser.parse_args() $/;"	v
+handle	2_1_forking_mixin_socket_server.py	/^    def handle(self):        $/;"	m	class:ForkingServerRequestHandler
+handle	2_2_threading_mixin_socket_server.py	/^    def handle(self):$/;"	m	class:ThreadedTCPRequestHandler
+handler	2_5_echo_server_with_diesel.py	/^    def handler(self, remote_addr):$/;"	m	class:EchoServer
+main	2_1_forking_mixin_socket_server.py	/^def main():$/;"	f
+main	2_5_echo_server_with_diesel.py	/^def main(server_port):$/;"	f
+name	2_3_chat_server_with_select.py	/^    name = given_args.name$/;"	v	class:ChatClient
+parser	2_3_chat_server_with_select.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example with Select')$/;"	v	class:ChatClient
+parser	2_4_simple_web_server_with_epoll.py	/^    parser = argparse.ArgumentParser(description='Socket Server Example with Epoll')$/;"	v	class:EpollServer
+parser	2_5_echo_server_with_diesel.py	/^    parser = argparse.ArgumentParser(description='Echo server example with Diesel')$/;"	v
+port	2_3_chat_server_with_select.py	/^    port = given_args.port$/;"	v	class:ChatClient
+port	2_4_simple_web_server_with_epoll.py	/^    port = given_args.port$/;"	v	class:EpollServer
+port	2_5_echo_server_with_diesel.py	/^    port = given_args.port$/;"	v
+receive	2_3_chat_server_with_select.py	/^def receive(channel):$/;"	f
+run	2_1_forking_mixin_socket_server.py	/^    def run(self):$/;"	m	class:ForkedClient
+run	2_3_chat_server_with_select.py	/^    def run(self):$/;"	m	class:ChatClient
+run	2_3_chat_server_with_select.py	/^    def run(self):$/;"	m	class:ChatServer
+run	2_4_simple_web_server_with_epoll.py	/^    def run(self):$/;"	m	class:EpollServer
+send	2_3_chat_server_with_select.py	/^def send(channel, *args):$/;"	f
+server	2_2_threading_mixin_socket_server.py	/^    server = ThreadedTCPServer((SERVER_HOST, SERVER_PORT), ThreadedTCPRequestHandler)$/;"	v	class:ThreadedTCPServer
+server	2_4_simple_web_server_with_epoll.py	/^    server = EpollServer(host=SERVER_HOST, port=port)$/;"	v	class:EpollServer
+server_thread	2_2_threading_mixin_socket_server.py	/^    server_thread = threading.Thread(target=server.serve_forever)$/;"	v	class:ThreadedTCPServer
+shutdown	2_1_forking_mixin_socket_server.py	/^    def shutdown(self):$/;"	m	class:ForkedClient
+sighandler	2_3_chat_server_with_select.py	/^    def sighandler(self, signum, frame):$/;"	m	class:ChatServer
